@@ -1,0 +1,14 @@
+.loader {
+  max-width: 600px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+@media (max-width: 600px) {
+  .loader {
+    max-width: 400px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+  }
+}

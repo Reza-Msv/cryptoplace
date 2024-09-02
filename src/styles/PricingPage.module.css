@@ -1,0 +1,126 @@
+.headline {
+  margin-top: 40px;
+  text-align: center;
+  padding: 20px;
+}
+
+.headline h1 {
+  color: rgb(227, 224, 224);
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.headline span {
+  color: rgb(175, 232, 254);
+}
+
+.headline p {
+  color: #afaeae;
+}
+
+.show {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.show h3 {
+  font-size: 3.1rem;
+  color: rgb(0, 255, 251);
+}
+
+.show p {
+  font-size: 1.1rem;
+  text-align: center;
+  color: #7d7d7d;
+}
+
+.price {
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 60px;
+  text-align: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  gap: 15px;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid #7d7d7d;
+  padding: 50px 15px;
+  border-radius: 20px;
+}
+
+.subscribe h3 {
+  font-size: 1.6rem;
+  color: rgb(0, 255, 251);
+  margin-bottom: 40px;
+  border-bottom: 2px solid #afaeae;
+  padding-bottom: 30px;
+}
+
+.subscribe h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.subscribe button {
+  padding: 10px 2px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.subscribe button:hover {
+  transform: scale(1.03);
+  text-shadow: 0px 0px 7px rgb(164, 193, 250);
+}
+
+.subscribe p {
+  padding: 10px;
+}
+
+@media (max-width: 730px) {
+  .show {
+    gap: 50px;
+    margin-top: 40px;
+  }
+
+  .show h3 {
+    font-size: 2.5rem;
+  }
+
+  .show p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 530px) {
+  .price {
+    flex-direction: column;
+    margin-top: 60px;
+    padding: 0px 20px;
+    gap: 20px;
+  }
+
+  .show{
+    gap: 20px;
+  }
+
+  .show h3 {
+    font-size: 1.3rem;
+  }
+
+  .show p{
+    font-size: 0.9rem;
+  }
+  }

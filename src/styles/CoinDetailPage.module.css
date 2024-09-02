@@ -1,0 +1,102 @@
+.chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.graph {
+  margin-top: 30px;
+  width: 760px;
+  height: 300px;
+}
+
+.name {
+  max-width: 40%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.name p {
+  margin-left: 30px;
+  color: #fff;
+  font-weight: 700;
+  transition: all 0.9s;
+}
+
+.name p:hover {
+  text-shadow: 0px 0px 8px rgb(255, 255, 255);
+  transform: scale(1.2);
+}
+
+.types {
+  display: flex;
+  margin-top: 40px;
+  gap: 80px;
+  margin-left: 40px;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+  margin-top: 60px;
+}
+
+.detail p {
+  border-bottom: 2px solid #3c3c3c;
+  padding-bottom: 5px;
+  line-height: 25px;
+}
+
+.detail span {
+  margin-left: 15px;
+  color: rgb(116, 140, 161);
+}
+
+.types button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: #5185ff;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.types button:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 760px) {
+  .graph {
+    width: 500px;
+  }
+
+  .types{
+    gap: 40px;
+  }
+
+  .types button {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+  .graph {
+    width: 300px;
+  }
+  .types button {
+    padding: 2px 5px;
+    font-size: 10px;
+  }
+  .detail{
+    width: 200px;
+  }
+}
+

@@ -1,0 +1,26 @@
+.notfound{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 60px;
+}
+
+.notfound h1 {
+    color: #fff;
+    font-weight: 500;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.notfound button{
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: rgb(98, 98, 255);
+}

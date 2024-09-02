@@ -1,0 +1,21 @@
+.description {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.description h1 {
+  font-size: max(4vw, 36px);
+}
+
+.description p {
+  width: 75%;
+  color: #e3e3e3;
+  line-height: 1.5;
+}

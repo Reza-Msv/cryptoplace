@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 100px;
+  max-width: 900px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead {
+  border-bottom: 2px solid #c1c1c1;
+  margin-bottom: 20px;
+}
+
+.table th {
+  font-size: 1.2rem;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.table tbody tr {
+  height: 80px;
+  border-bottom: 1px solid #3c3c3c;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.symbol {
+  display: flex;
+  align-items: center;
+}
+
+.symbol img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.success {
+  color: #57bc7c;
+}
+
+.error {
+  color: #d33636;
+}
+
+@media (max-width: 900px) {
+  .container {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 680px) {
+  .delete {
+    display: none;
+  }
+  .symbol {
+    font-size: 20px;
+  }
+
+  .table th {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 580px) {
+  .last {
+    display: none;
+  }
+  .symbol {
+    font-size: 15px;
+    width: max-content;
+  }
+  .error,
+  .success {
+    font-size: 12px;
+  }
+  .res {
+    font-size: 12px;
+    text-align: left;
+  }
+  .container {
+    margin-bottom: 30px;
+  }
+
+  .symbol img {
+    width: 30px;
+    height: 30px;
+  }
+}

@@ -1,0 +1,27 @@
+.blogs {
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px 14px;
+
+}
+
+.blog {
+  background-color: rgb(1, 1, 51);
+  margin-top: 60px;
+  padding: 10px 14px;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.blog h1{
+    text-align: center;
+    margin: 5px 10px;
+    color: rgb(0, 255, 251);
+}
+
+.blog p{
+    font-size: 1.1rem;
+    font-style: italic;
+    line-height: 40px;
+    margin-top: 30px;
+}
